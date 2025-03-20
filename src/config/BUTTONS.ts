@@ -5,16 +5,16 @@ export const BUTTONS: Omit<CalcButtonProps, 'onPress'>[][] = [
   [
     { label: 'C', color: colors.lightGray },
     { label: '+/-', color: colors.lightGray },
-    { label: '%', color: colors.lightGray },
+    { label: 'DEL', color: colors.lightGray },
     { label: '/', color: colors.orange },
   ],
   [
     ...Array.from({ length: 3 }, (_, i) => ({ label: `${i + 6}` })),
-    { label: '+', color: colors.orange },
+    { label: 'X', color: colors.orange },
   ],
   [
     ...Array.from({ length: 3 }, (_, i) => ({ label: `${i + 4}` })),
-    { label: '+', color: colors.orange },
+    { label: '-', color: colors.orange },
   ],
   [
     ...Array.from({ length: 3 }, (_, i) => ({ label: `${i + 1}` })),
