@@ -6,8 +6,8 @@
  */
 
 import React from 'react';
-import { StatusBar, StyleSheet, Text, View, } from 'react-native';
-import CalculatorScreen from './Presentation/screens/CalculatorScreen';
+import { StatusBar, StyleSheet, Text, View } from 'react-native';
+import CalculatorScreen from './Presentation/screens/calculator-screen';
 import { styles } from './config/theme/app-theme';
 
 
@@ -18,11 +18,11 @@ function App() {
       <StatusBar
         barStyle={'light-content'}
         backgroundColor={'black'}
-        />
-        <CalculatorScreen></CalculatorScreen>
-        </View>
+      />
+      <CalculatorScreen />
+    </View>
   );
-}            
+}
 
 
 export default App;

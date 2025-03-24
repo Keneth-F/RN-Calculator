@@ -1,5 +1,5 @@
 import { colors } from './theme/app-theme';
-import { CalcButtonProps } from '../Presentation/components/CalculatorButton';
+import { CalcButtonProps } from '../Presentation/components/calculator-button';
 
 export const BUTTONS: Omit<CalcButtonProps, 'onPress'>[][] = [
   [
